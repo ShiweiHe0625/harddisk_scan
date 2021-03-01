@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="smartmontools">
+      <UniqueIdentifier>{287b36af-da3d-4637-9a2a-9528fcc35bcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other">
+      <UniqueIdentifier>{afdb3d0b-f194-43bc-8168-cc2588bc039f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="smartmontools\getopt">
+      <UniqueIdentifier>{f6382b26-42f9-4b38-9149-1f1d223d905c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="smartmontools\os_win32">
+      <UniqueIdentifier>{3a0bba74-5b9a-4d6c-a753-6597bf40ff59}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="smartmontools\aacraid.h">
+      <Filter>smartmontools</Filter>
+    </ClInclude>
+    <ClInclude Include="smartmontools\atacmdnames.h">
+      <Filter>smartmontools</Filter>
+    </ClInclude>
+    <ClInclude Include="smartmontools\atacmds.h">
+      <Filter>smartmontools</Filter>
+    </ClInclude>
+    <ClInclude Include="smartmontools\ataidentify.h">
+      <Filter>smartmontools</Filter>
+    </ClInclude>
+    <ClInclude Include="smartmontools\ataprint.h">
+      <Filter>smartmontools</Filter>
+    </ClInclude>
+    <ClInclude Include="smartmontools\config.h">
+      <Filter>smartmontools</Filter>
+    </ClInclude>
+    <ClInclude Include="smartmontools\csmisas.h">
+      <Filter>smartmontools</Filter>
+    </ClInclude>
+    <ClInclude Include="smartmontools\dev_areca.h">
+      <Filter>smartmontools</Filter>
+    </ClInclude>
+    <ClInclude Include="smartmontools\dev_ata_cmd_set.h">
+      <Filter>smartmontools</Filter>
+    </ClInclude>
+    <ClInclude Include="smartmontools\dev_interface.h">
+      <Filter>smartmontools</Filter>
+    </ClInclude>
+    <ClInclude Include="smartmontools\dev_tunnelled.h">
+      <Filter>smartmontools</Filter>
+    </ClInclude>
+    <ClInclude Include="smartmontools\drivedb.h">
+      <Filter>smartmontools</Filter>
+    </ClInclude>
+    <ClInclude Include="smartmontools\json.h">
+      <Filter>smartmontools</Filter>
+    </ClInclude>
+    <ClInclude Include="smartmontools\knowndrives.h">
+      <Filter>smartmontools</Filter>
+    </ClInclude>
+    <ClInclude Include="smartmontools\nvmecmds.h">
+      <Filter>smartmontools</Filter>
+    </ClInclude>
+    <ClInclude Include="smartmontools\nvmeprint.h">
+      <Filter>smartmontools</Filter>
+    </ClInclude>
+    <ClInclude Include="smartmontools\scsicmds.h">
+      <Filter>smartmontools</Filter>
+    </ClInclude>
+    <ClInclude Include="smartmontools\scsiprint.h">
+      <Filter>smartmontools</Filter>
+    </ClInclude>
+    <ClInclude Include="smartmontools\sg_unaligned.h">
+      <Filter>smartmontools</Filter>
+    </ClInclude>
+    <ClInclude Include="smartmontools\smartctl.h">
+      <Filter>smartmontools</Filter>
+    </ClInclude>
+    <ClInclude Include="smartmontools\static_assert.h">
+      <Filter>smartmontools</Filter>
+    </ClInclude>
+    <ClInclude Include="smartmontools\utility.h">
+      <Filter>smartmontools</Filter>
+    </ClInclude>
+    <ClInclude Include="smartmontools\getopt\getopt.h">
+      <Filter>smartmontools\getopt</Filter>
+    </ClInclude>
+    <ClInclude Include="smartmontools\getopt\getopt_int.h">
+      <Filter>smartmontools\getopt</Filter>
+    </ClInclude>
+    <ClInclude Include="smartmontools\os_win32\popen.h">
+      <Filter>smartmontools\os_win32</Filter>
+    </ClInclude>
+    <ClInclude Include="smartmontools\os_win32\wmiquery.h">
+      <Filter>smartmontools\os_win32</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="hdw_disk_scan.rc">
+      <Filter>other</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="smartmontools\atacmdnames.cpp">
+      <Filter>smartmontools</Filter>
+    </ClCompile>
+    <ClCompile Include="smartmontools\atacmds.cpp">
+      <Filter>smartmontools</Filter>
+    </ClCompile>
+    <ClCompile Include="smartmontools\ataidentify.cpp">
+      <Filter>smartmontools</Filter>
+    </ClCompile>
+    <ClCompile Include="smartmontools\ataprint.cpp">
+      <Filter>smartmontools</Filter>
+    </ClCompile>
+    <ClCompile Include="smartmontools\dev_areca.cpp">
+      <Filter>smartmontools</Filter>
+    </ClCompile>
+    <ClCompile Include="smartmontools\dev_ata_cmd_set.cpp">
+      <Filter>smartmontools</Filter>
+    </ClCompile>
+    <ClCompile Include="smartmontools\dev_intelliprop.cpp">
+      <Filter>smartmontools</Filter>
+    </ClCompile>
+    <ClCompile Include="smartmontools\dev_interface.cpp">
+      <Filter>smartmontools</Filter>
+    </ClCompile>
+    <ClCompile Include="smartmontools\dev_jmb39x_raid.cpp">
+      <Filter>smartmontools</Filter>
+    </ClCompile>
+    <ClCompile Include="smartmontools\json.cpp">
+      <Filter>smartmontools</Filter>
+    </ClCompile>
+    <ClCompile Include="smartmontools\knowndrives.cpp">
+      <Filter>smartmontools</Filter>
+    </ClCompile>
+    <ClCompile Include="smartmontools\nvmecmds.cpp">
+      <Filter>smartmontools</Filter>
+    </ClCompile>
+    <ClCompile Include="smartmontools\nvmeprint.cpp">
+      <Filter>smartmontools</Filter>
+    </ClCompile>
+    <ClCompile Include="smartmontools\os_win32.cpp">
+      <Filter>smartmontools</Filter>
+    </ClCompile>
+    <ClCompile Include="smartmontools\scsiata.cpp">
+      <Filter>smartmontools</Filter>
+    </ClCompile>
+    <ClCompile Include="smartmontools\scsicmds.cpp">
+      <Filter>smartmontools</Filter>
+    </ClCompile>
+    <ClCompile Include="smartmontools\scsinvme.cpp">
+      <Filter>smartmontools</Filter>
+    </ClCompile>
+    <ClCompile Include="smartmontools\scsiprint.cpp">
+      <Filter>smartmontools</Filter>
+    </ClCompile>
+    <ClCompile Include="smartmontools\smartctl.cpp">
+      <Filter>smartmontools</Filter>
+    </ClCompile>
+    <ClCompile Include="smartmontools\utility.cpp">
+      <Filter>smartmontools</Filter>
+    </ClCompile>
+    <ClCompile Include="smartmontools\getopt\getopt.c">
+      <Filter>smartmontools\getopt</Filter>
+    </ClCompile>
+    <ClCompile Include="smartmontools\getopt\getopt1.c">
+      <Filter>smartmontools\getopt</Filter>
+    </ClCompile>
+    <ClCompile Include="smartmontools\os_win32\wmiquery.cpp">
+      <Filter>smartmontools\os_win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
